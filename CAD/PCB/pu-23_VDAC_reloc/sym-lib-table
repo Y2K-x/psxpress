@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BH7240AKV-E2")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/BH7240AKV-E2.kicad_sym")(options "")(descr ""))
+)
