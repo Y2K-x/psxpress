@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/y2k/Documents/pu-23_VDAC_reloc/pu-23_VDAC_reloc/pu-23_VDAC_reloc.kicad_sch</source>
-    <date>Thu 22 Jun 2023 10:32:45 AM CDT</date>
+    <source>/home/y2k/Documents/psxpress/CAD/PCB/pu-23_VDAC_reloc/pu-23_VDAC_reloc.kicad_sch</source>
+    <date>Tue 18 Jul 2023 06:34:37 AM CDT</date>
     <tool>Eeschema 7.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -55,7 +55,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b30b86ed-b3cb-42d8-9337-2d1cb14bd8c3</tstamps>
+      <tstamps>11fe25fd-b642-406e-976a-d07666f21f95</tstamps>
     </comp>
     <comp ref="C4">
       <value>100nF</value>
@@ -77,7 +77,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>11fe25fd-b642-406e-976a-d07666f21f95</tstamps>
+      <tstamps>b30b86ed-b3cb-42d8-9337-2d1cb14bd8c3</tstamps>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
@@ -180,7 +180,7 @@
       <tstamps>628f7349-29ea-43ca-8bbd-75591a3a34e2</tstamps>
     </comp>
     <comp ref="R1">
-      <value>75Ω</value>
+      <value>680kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -188,7 +188,7 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>65daf01f-fccb-4056-b397-8298ea336b74</tstamps>
+      <tstamps>ea568afa-c396-4ba9-bda0-a446d7e82670</tstamps>
     </comp>
     <comp ref="R2">
       <value>75Ω</value>
@@ -199,7 +199,7 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0071aa55-75a7-46a5-9c50-25c5f88c4bec</tstamps>
+      <tstamps>65daf01f-fccb-4056-b397-8298ea336b74</tstamps>
     </comp>
     <comp ref="R3">
       <value>75Ω</value>
@@ -210,10 +210,10 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8bf82697-3938-43ee-a5a2-3a07094d2cde</tstamps>
+      <tstamps>0071aa55-75a7-46a5-9c50-25c5f88c4bec</tstamps>
     </comp>
     <comp ref="R4">
-      <value>680kΩ</value>
+      <value>75Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -221,7 +221,7 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ea568afa-c396-4ba9-bda0-a446d7e82670</tstamps>
+      <tstamps>8bf82697-3938-43ee-a5a2-3a07094d2cde</tstamps>
     </comp>
     <comp ref="R5">
       <value>470Ω</value>
@@ -450,7 +450,7 @@
   </libparts>
   <libraries>
     <library logical="BH7240AKV-E2">
-      <uri>/home/y2k/Documents/pu-23_VDAC_reloc/pu-23_VDAC_reloc/lib/sym/BH7240AKV-E2.kicad_sym</uri>
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/pu-23_VDAC_reloc/lib/sym/BH7240AKV-E2.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
@@ -477,10 +477,10 @@
     </net>
     <net code="2" name="B">
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
     <net code="3" name="BCLAMP">
-      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="BCLAMP" pintype="passive"/>
     </net>
     <net code="4" name="BDATA0">
@@ -521,7 +521,7 @@
     </net>
     <net code="13" name="G">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="GCLAMP">
       <node ref="C4" pin="2" pintype="passive"/>
@@ -575,20 +575,20 @@
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="24" name="Net-(IC1-BOUT)">
       <node ref="IC1" pin="5" pinfunction="BOUT" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="25" name="Net-(IC1-GOUT)">
       <node ref="IC1" pin="4" pinfunction="GOUT" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
     <net code="26" name="Net-(IC1-ROUT)">
       <node ref="IC1" pin="3" pinfunction="ROUT" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="27" name="Net-(IC1-YTRAP)">
       <node ref="IC1" pin="10" pinfunction="YTRAP" pintype="passive"/>
@@ -600,7 +600,7 @@
     </net>
     <net code="29" name="Net-(U1-INT)">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="INT" pintype="input"/>
     </net>
     <net code="30" name="Net-(U1-VIDEO)">
@@ -609,10 +609,10 @@
     </net>
     <net code="31" name="R">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="32" name="RCLAMP">
-      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="IC1" pin="46" pinfunction="RCLAMP" pintype="passive"/>
     </net>
     <net code="33" name="RDATA0">
