@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ25606RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25606RGER.kicad_sym")(options "")(descr ""))
+)
