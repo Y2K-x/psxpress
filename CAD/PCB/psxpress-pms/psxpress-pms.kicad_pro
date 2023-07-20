@@ -245,7 +245,10 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "BQ25606RGER"
+      "BQ25606RGER",
+      "MAX16054AZT+T",
+      "TPS564255DRLR",
+      "TPS61023DRLT"
     ]
   },
   "meta": {
