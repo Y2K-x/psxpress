@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BQ25606RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25606RGER.pretty")(options "")(descr ""))
+  (lib (name "MAX16054AZT+T")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX16054AZT+T.pretty")(options "")(descr ""))
+)

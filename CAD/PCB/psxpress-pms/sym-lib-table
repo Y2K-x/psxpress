@@ -4,4 +4,5 @@
   (lib (name "MAX16054AZT+T")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX16054AZT+T.kicad_sym")(options "")(descr ""))
   (lib (name "TPS564255DRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS564255DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61023DRLT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61023DRLT.kicad_sym")(options "")(descr ""))
+  (lib (name "AONR21117")(type "KiCad")(uri "${KIPRJMOD}/lib/AONR21117.kicad_sym")(options "")(descr ""))
 )
