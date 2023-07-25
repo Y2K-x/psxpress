@@ -3206,7 +3206,7 @@
     (property "Value" "AONR21117" (at 167.64 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 172.72 100.33 0)
+    (property "Footprint" "TRANS_AONR21321:TRANS_AONR21321" (at 172.72 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 172.72 100.33 0)

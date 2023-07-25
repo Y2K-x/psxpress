@@ -3,4 +3,5 @@
   (lib (name "BQ25606RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25606RGER.pretty")(options "")(descr ""))
   (lib (name "MAX16054AZT+T")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX16054AZT+T.pretty")(options "")(descr ""))
   (lib (name "solderpads")(type "KiCad")(uri "${KIPRJMOD}/lib/solderpads.pretty")(options "")(descr ""))
+  (lib (name "TRANS_AONR21321")(type "KiCad")(uri "${KIPRJMOD}/lib/TRANS_AONR21321.pretty")(options "")(descr ""))
 )
