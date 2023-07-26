@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -402,7 +402,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "solderpads"
+      "solderpads",
+      "TRANS_AONR21321",
+      "BQ25606RGER"
     ],
     "pinned_symbol_libs": [
       "BQ25606RGER",

@@ -1,15 +1,15 @@
-(footprint "power_pad_2.5x1.5mm" (version 20221018) (generator pcbnew)
+(footprint "hipower_2.5x1.5mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 448e0ec8-7abb-4781-9caa-34e8e7cc618d)
   )
-  (fp_text value "power_pad_2.5x1.5mm" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "hipower_2.5x1.5mm" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b113e8df-3c6c-43c5-a442-1c40e92cb121)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ecf36c43-b373-49d1-bd13-2407445af2bc)
   )

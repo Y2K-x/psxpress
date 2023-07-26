@@ -123,17 +123,51 @@
         (fill (type outline))
       )
     )
-    (symbol "AONR21117_1_1"
+    (symbol "AONR21117_1_0"
       (pin input line (at -2.54 0 0) (length 2.54)
         (name "G" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 5.08 -5.08 90) (length 2.54)
-        (name "S" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 5.08 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "9_1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 2.54) hide
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "9_2" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "AONR21117_1_1"
+      (pin passive line (at 5.08 -5.08 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 -5.08 90) (length 2.54) hide
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 -5.08 90) (length 2.54) hide
+        (name "S" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
