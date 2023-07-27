@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/psxpress-pms.kicad_sch</source>
+    <date>Thu 27 Jul 2023 04:15:14 AM CDT</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>psxpress-pms.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6dc6731-a525-41af-ad14-58ad0c69eefa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2585004-781f-4c1b-a5c7-144321f097db</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>979cace7-b82d-4c04-8b4c-222826a5ac7e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4415a826-cbba-4726-86c3-648aa280a7a5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eeb3e4c-b6b9-4d43-88fa-b68810fd2487</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72ad7a51-f3cf-4af1-bb26-48579df6a313</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09840ea4-7c90-45a7-adf5-8dfe44cae882</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b187f07-3427-4760-82ca-86f685a26aa4</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58066ec1-35ab-4ca3-8d56-5211516bdf75</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18198551-f8b5-4fbc-9657-69360518dfda</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68fd478b-9880-45f3-8a73-5e4e9d6acca9</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb28163b-3463-4cb4-9d5a-63be24857ea4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>009f5013-3ab7-4f6c-bc7c-8354cece1efa</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86781fc6-8565-4569-b941-2b19707055d6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>solderpads:led_1.25mm_2</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98db3a42-44dc-4b5a-addc-1787bf2cf81d</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>BQ25606RGER</value>
+      <footprint>BQ25606RGER:QFN50P400X400X100-25N-D</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/bq25606</datasheet>
+      <fields>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ25606RGER</field>
+        <field name="Mouser Part Number">595-BQ25606RGER</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25606RGER?qs=5aG0NVq1C4zkYp5xuky4%2Fg%3D%3D</field>
+      </fields>
+      <libsource lib="BQ25606RGER" part="BQ25606RGER" description="Stand Alone Single Cell 3-A Fast Charger with High Input Voltage and Power Path"/>
+      <property name="Height" value="1"/>
+      <property name="Mouser Part Number" value="595-BQ25606RGER"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25606RGER?qs=5aG0NVq1C4zkYp5xuky4%2Fg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="BQ25606RGER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Stand Alone Single Cell 3-A Fast Charger with High Input Voltage and Power Path"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a065c2c9-4314-47a9-a9a5-7b5f80e6bf1a</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MAX16054AZT+T</value>
+      <footprint>MAX16054AZT+T:SOT95P275X110-6N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00087822.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX16054AZT+T</field>
+        <field name="Mouser Part Number">700-MAX16054AZTT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX16054AZT%2bT?qs=CDqwynd4ZNoG75aAAjGoqQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX16054AZT+T" part="MAX16054AZT+T" description="On Off Controller, Debounce, 15kV ESD MAX16054AZT+T, Voltage Supervisor No Push Button Controller 6-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX16054AZTT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX16054AZT%2bT?qs=CDqwynd4ZNoG75aAAjGoqQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX16054AZT+T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="On Off Controller, Debounce, 15kV ESD MAX16054AZT+T, Voltage Supervisor No Push Button Controller 6-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13ca009-c3c3-43b6-b47c-0f9d52fd8378</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>TPS61023DRLT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</datasheet>
+      <fields>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
+        <field name="Mouser Part Number">595-TPS61023DRLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
+      </fields>
+      <libsource lib="TPS61023DRLT" part="TPS61023DRLT" description="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="595-TPS61023DRLT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS61023DRLT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e5d3233-1c56-4ef1-9327-28f7a4e071cd</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>TPS564255DRLR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</datasheet>
+      <fields>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
+        <field name="Mouser Part Number">595-TPS61023DRLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
+      </fields>
+      <libsource lib="TPS564255DRLR" part="TPS564255DRLR" description="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="595-TPS61023DRLT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS61023DRLT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ce33b5-43b9-4699-bd4e-18873e3a3ec9</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c3f1dc-d70d-4e00-92a2-67c043e5407a</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92f7360a-c9ff-4de3-ae82-875e1e779aa7</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c68eedfc-41b9-436c-9470-0ce6d4b5b00f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AONR21117</value>
+      <footprint>TRANS_AONR21321:TRANS_AONR21321</footprint>
+      <libsource lib="AONR21117" part="AONR21117" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d69ffdd-4e20-45be-b39c-540021694f4c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>280d466a-5175-48de-a089-701352af0da6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>226</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2420aecc-2395-4db6-964a-426ea8fcfab8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8162bde0-9dbe-45bc-a4ef-24061717de15</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27f11b9e-45ed-473e-a080-be06e4862a19</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>019d07ed-95be-4344-8df8-366788523c3d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>549a2a5e-6df2-414a-8724-05b55e79f1f3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>750k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f48bef-f0a4-461f-ae53-a20b7a8d2d4d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6831d7b-af00-4cbf-acfc-f68403a0ee3c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>487k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4def0a6b-2e0f-43b6-852f-531f8222357a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80e05685-6ed1-4a62-a066-1c7136cfea82</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>solderpads:pwr_switch_1.25mm_2</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b55bd6dc-88a0-426f-8f7f-a035600be556</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a0a7dd7-ba82-4b14-9a31-d19c949f78ac</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>VBUS</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a078fb5f-e36a-4c04-a378-7e719ca51671</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>BAT</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>644bde84-5684-47d6-b70c-24ed49104ac8</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>+5V</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a57e86-acb2-431d-9450-ce80a007731a</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>+3V5</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfea8e7d-624c-46af-8f28-ca0ea6c7ac71</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>GND</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c4da69d-effa-4cdf-bfb8-a196675dffc0</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>GND</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f14f25b-2692-4dd9-8384-92368f29963c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AONR21117" part="AONR21117">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AONR21117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+        <pin num="9" name="D" type="passive"/>
+        <pin num="9_1" name="D" type="passive"/>
+        <pin num="9_2" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BQ25606RGER" part="BQ25606RGER">
+      <description>Stand Alone Single Cell 3-A Fast Charger with High Input Voltage and Power Path</description>
+      <docs>http://www.ti.com/lit/gpn/bq25606</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BQ25606RGER</field>
+        <field name="Footprint">QFN50P400X400X100-25N-D</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/bq25606</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">595-BQ25606RGER</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25606RGER?qs=5aG0NVq1C4zkYp5xuky4%2Fg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ25606RGER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VAC" type="passive"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="D-" type="passive"/>
+        <pin num="5" name="STAT" type="passive"/>
+        <pin num="6" name="OTG" type="passive"/>
+        <pin num="7" name="~{PG}" type="passive"/>
+        <pin num="8" name="ILIM" type="passive"/>
+        <pin num="9" name="~{CE}" type="passive"/>
+        <pin num="10" name="ICHG" type="passive"/>
+        <pin num="11" name="TS" type="passive"/>
+        <pin num="12" name="VSET" type="passive"/>
+        <pin num="13" name="BAT" type="passive"/>
+        <pin num="14" name="BAT" type="passive"/>
+        <pin num="15" name="SYS" type="passive"/>
+        <pin num="16" name="SYS" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="SW" type="passive"/>
+        <pin num="20" name="SW" type="passive"/>
+        <pin num="21" name="BTST" type="passive"/>
+        <pin num="22" name="REGN" type="passive"/>
+        <pin num="23" name="PMID" type="passive"/>
+        <pin num="24" name="VBUS" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX16054AZT+T" part="MAX16054AZT+T">
+      <description>On Off Controller, Debounce, 15kV ESD MAX16054AZT+T, Voltage Supervisor No Push Button Controller 6-Pin SOT-23</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00087822.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX16054AZT+T</field>
+        <field name="Footprint">SOT95P275X110-6N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00087822.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">700-MAX16054AZTT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX16054AZT%2bT?qs=CDqwynd4ZNoG75aAAjGoqQ%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX16054AZT+T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CLEAR" type="passive"/>
+        <pin num="4" name="~{OUT}" type="passive"/>
+        <pin num="5" name="OUT" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS564255DRLR" part="TPS564255DRLR">
+      <description>Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS564255DRLR</field>
+        <field name="Footprint">SOTFL50P160X60-6N</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</field>
+        <field name="Height">0.6</field>
+        <field name="Mouser Part Number">595-TPS61023DRLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SW" type="passive"/>
+        <pin num="6" name="PG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS61023DRLT" part="TPS61023DRLT">
+      <description>Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS61023DRLT</field>
+        <field name="Footprint">SOTFL50P160X60-6N</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</field>
+        <field name="Height">0.6</field>
+        <field name="Mouser Part Number">595-TPS61023DRLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SW" type="passive"/>
+        <pin num="6" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AONR21117">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/AONR21117.kicad_sym</uri>
+    </library>
+    <library logical="BQ25606RGER">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/BQ25606RGER.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MAX16054AZT+T">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/MAX16054AZT+T.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TPS564255DRLR">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/TPS564255DRLR.kicad_sym</uri>
+    </library>
+    <library logical="TPS61023DRLT">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/TPS61023DRLT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.5V">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="17" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="OTG" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="~{CE}" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="CLEAR" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="19" pinfunction="SW" pintype="passive"/>
+      <node ref="IC1" pin="20" pinfunction="SW" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="BAT" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="BAT" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC1-BTST)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="21" pinfunction="BTST" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC1-ICHG)">
+      <node ref="IC1" pin="10" pinfunction="ICHG" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC1-ILIM)">
+      <node ref="IC1" pin="8" pinfunction="ILIM" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(IC1-PMID)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="23" pinfunction="PMID" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(IC1-REGN)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="22" pinfunction="REGN" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(IC1-TS)">
+      <node ref="IC1" pin="11" pinfunction="TS" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(IC1-VAC)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VAC" pintype="passive"/>
+      <node ref="IC1" pin="24" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(IC2-IN)">
+      <node ref="IC2" pin="1" pinfunction="IN" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC2-~{OUT})">
+      <node ref="IC2" pin="4" pinfunction="~{OUT}" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC3-FB)">
+      <node ref="IC3" pin="1" pinfunction="FB" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(IC3-SW)">
+      <node ref="IC3" pin="5" pinfunction="SW" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(IC4-FB)">
+      <node ref="IC4" pin="1" pinfunction="FB" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(IC4-SW)">
+      <node ref="IC4" pin="5" pinfunction="SW" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="STAT">
+      <node ref="IC1" pin="5" pinfunction="STAT" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="VOUT">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="SYS" pintype="passive"/>
+      <node ref="IC1" pin="16" pinfunction="SYS" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="VCC" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="VSYS">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="EN" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC4" pin="2" pinfunction="EN" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="9" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="9_1" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="9_2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(IC1-D+-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="D+" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(IC1-D--Pad4)">
+      <node ref="IC1" pin="4" pinfunction="D-" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(IC1-NC-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(IC1-VSET-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="VSET" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(IC1-~{PG}-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="~{PG}" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(IC2-OUT-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="OUT" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(IC4-PG-Pad6)">
+      <node ref="IC4" pin="6" pinfunction="PG" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
