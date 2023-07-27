@@ -1,11 +1,11 @@
-(footprint "pwr_switch_1.25mm_2" (version 20221018) (generator pcbnew)
+(footprint "led_1.25mm_2" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e0dd432f-0b49-4cea-8829-1461554c07e3)
   )
-  (fp_text value "pwr_switch_1.25mm_2" (at 0 1 unlocked) (layer "F.Fab") hide
+  (fp_text value "led_1.25mm_2" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fa22ad5b-18c3-4fde-8870-5e25f547b545)
   )
