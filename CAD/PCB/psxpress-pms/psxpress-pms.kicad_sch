@@ -2852,7 +2852,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e2596ca-e6db-4465-b02c-da4f98e589bf)
   )
-  (text "Todo: \n- Battery OCP/OVP/UVP" (at 12.7 16.51 0)
+  (text "Todo: \n- Battery Reverse Polarity Protection" (at 12.7 16.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4f09077e-d1ab-4899-9126-89662e2e558b)
   )
