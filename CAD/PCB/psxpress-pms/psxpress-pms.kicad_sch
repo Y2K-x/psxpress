@@ -3104,7 +3104,7 @@
     (property "Value" "TPS631000" (at 106.68 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOTFL50P160X60-8N" (at 116.84 253.67 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-583-8" (at 116.84 253.67 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265" (at 116.84 353.67 0)
@@ -3311,17 +3311,17 @@
     (property "Datasheet" "" (at 148.59 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 7f329d2d-3aa2-4315-b6d5-13705bf114a3))
-    (pin "5" (uuid d69a04fa-f9bd-45cc-a050-c741ddf8f166))
-    (pin "6" (uuid 70bac644-7473-41ed-a7d0-4096b73a0984))
-    (pin "7" (uuid 47b4df05-1377-4e3b-8630-d46ffe40416d))
-    (pin "8" (uuid 0f2c99c9-fffd-4b83-ba76-d9f222c7c88b))
-    (pin "9" (uuid 2af0d39d-0e53-4816-a356-fba2b8af65b2))
-    (pin "9_1" (uuid dd36ada6-bc5f-46dc-a847-aa3e72e5a4d3))
-    (pin "9_2" (uuid 156a58b0-5ed9-45af-a2da-cf81dab24c70))
-    (pin "1" (uuid 20166827-e47a-41ae-a69e-7ec434578670))
-    (pin "2" (uuid f3aeb80f-358d-40b6-b43c-2d2d87a6f1dc))
-    (pin "3" (uuid fed70aab-e329-4190-8f6d-2b4386d5b198))
+    (pin "4" (uuid 0d7a2800-0b36-429d-8c9e-d558a62a4c77))
+    (pin "5" (uuid 5c5769f0-6ae6-4ecb-93e9-432136280045))
+    (pin "6" (uuid 028693af-f47c-43a7-9505-9a42221ef6ae))
+    (pin "7" (uuid fb79d370-089b-4285-871d-4f5792fa7119))
+    (pin "8" (uuid ed38c185-3de1-41c4-a09c-5233638092cb))
+    (pin "9" (uuid f3ccb207-639c-4575-aaee-7c8d791b08a1))
+    (pin "9_1" (uuid 46a27898-9b24-4c29-aa37-a3a9ec2117fa))
+    (pin "9_2" (uuid 3a72ccc6-5231-4694-b5b6-6cc2216b5949))
+    (pin "1" (uuid 452d3e7c-0c94-4e66-a470-af6064fb0cdd))
+    (pin "2" (uuid 50c28292-3d38-4a71-959b-283b79f336a9))
+    (pin "3" (uuid 07ec5647-761e-4672-96c3-3e9d5e1cb2ee))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -3600,7 +3600,7 @@
     (property "Datasheet" "" (at 179.07 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48c06425-6504-422a-b7c6-4ddbe1428fd7))
+    (pin "1" (uuid f1c47c0f-8194-4640-97ff-25025c1b3517))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -3625,8 +3625,8 @@
     (property "Datasheet" "~" (at 135.89 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d00e48e-603c-441e-95e2-8c3740f1de37))
-    (pin "2" (uuid 92b0f22e-1ff0-4d36-93bd-ac01054e699b))
+    (pin "1" (uuid 7b39d480-c075-4d0f-993e-2bcb64b237d6))
+    (pin "2" (uuid 0c97367d-ff61-4aeb-8dda-5bca94a7a6bc))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -3645,13 +3645,13 @@
     (property "Value" "RST" (at 189.23 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "solderpads:hipower_2.5x1.5mm" (at 187.96 109.22 0)
+    (property "Footprint" "solderpads:lopower_1.25mm" (at 187.96 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6600f8c-337f-4026-933e-9e68d0a92ded))
+    (pin "1" (uuid 0d89a7dc-5ac6-4cc8-a01f-4dde84fbb86a))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -3746,14 +3746,14 @@
     (property "Value" "100nF" (at 168.91 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 171.45 104.14 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 171.45 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 680f9535-e18f-403d-9c1c-b805f1de8061))
-    (pin "2" (uuid 05540ca0-beeb-4ee6-8e30-0a15cf371191))
+    (pin "1" (uuid b09ccfe1-a971-46d8-ba5d-6a72664aa15e))
+    (pin "2" (uuid 900463fa-83da-413b-9383-06bb12217831))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -3772,7 +3772,7 @@
     (property "Value" "TPS631000" (at 177.8 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOTFL50P160X60-8N" (at 187.96 253.67 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-583-8" (at 187.96 253.67 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265" (at 187.96 353.67 0)
@@ -4030,7 +4030,7 @@
     (property "Datasheet" "" (at 179.07 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6c5b84b-307c-4e88-81f4-582a50780860))
+    (pin "1" (uuid d5aa3cb0-676f-4cd1-917b-c909435d567e))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -4221,9 +4221,9 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf" (at 179.07 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f8d13d1-8848-4d10-b916-54e2c9003d99))
-    (pin "2" (uuid 81eff8a3-ede1-4b9d-83b4-b69cf009a6b8))
-    (pin "3" (uuid 435b6c48-ee30-4067-b5ec-488d5c15f0d7))
+    (pin "1" (uuid f02e81a7-ef3e-426f-933d-f34880a52275))
+    (pin "2" (uuid 1e72e524-9ad0-4bc7-b1a4-e5137292416c))
+    (pin "3" (uuid 4fdcab64-4b5e-4250-95d8-e6f803b9925d))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -4314,12 +4314,12 @@
     (property "Manufacturer_Part_Number" "MAX16054AZT+T" (at 129.54 900.33 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 281752d5-8fc8-4cb0-bb21-ae15d5a64729))
-    (pin "2" (uuid 2226f81a-2c6a-463c-9368-cdc61d76918a))
-    (pin "3" (uuid 9f564954-e755-4898-9baa-2a3e8ee212d9))
-    (pin "4" (uuid 950b90b8-e8df-47fd-a41c-df80c13e96be))
-    (pin "5" (uuid 85275953-fd23-4610-8221-5136b77a3810))
-    (pin "6" (uuid ef11a20f-3658-426d-a753-da8b75237d58))
+    (pin "1" (uuid 00febfa7-4f4b-4500-9d65-1d63596f31d9))
+    (pin "2" (uuid c9b41962-f843-4289-99ee-26e1c9181440))
+    (pin "3" (uuid a9888426-eeb5-4885-8b4a-dde59b4871c7))
+    (pin "4" (uuid 1d05ef06-99e2-4007-8bf6-0b45ca068ea4))
+    (pin "5" (uuid 48eade3f-3a95-4d7b-b22c-b2781cd088fe))
+    (pin "6" (uuid 97919f8c-512f-4d1d-b913-a22099f9d9a7))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -4344,7 +4344,7 @@
     (property "Datasheet" "" (at 92.71 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49f7f99a-39cd-4c8a-8e35-1048d25704b5))
+    (pin "1" (uuid 9dfe2515-0de4-47c0-864b-494e8e6b942f))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
@@ -4394,8 +4394,8 @@
     (property "Datasheet" "~" (at 97.79 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d9ad8a5-1df3-4b17-a03f-2941720d28a2))
-    (pin "2" (uuid ed09ee8e-bac2-4a50-bf65-c24f679a47d0))
+    (pin "1" (uuid bf6c6966-1125-4e10-9412-f9c9f1e95aac))
+    (pin "2" (uuid 3106ba71-a568-4433-80c6-50a6160b6517))
     (instances
       (project "psxpress-pms"
         (path "/b46ebcbe-5ef3-41ff-bf92-95c75415e5a2"
