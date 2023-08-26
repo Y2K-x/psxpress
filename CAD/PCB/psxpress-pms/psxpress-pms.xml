@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/psxpress-pms.kicad_sch</source>
-    <date>Thu 27 Jul 2023 04:15:14 AM CDT</date>
-    <tool>Eeschema 7.0.5</tool>
+    <date>Thu 24 Aug 2023 02:15:20 AM CDT</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -121,7 +121,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>58066ec1-35ab-4ca3-8d56-5211516bdf75</tstamps>
+      <tstamps>1186be29-5630-4d10-af5a-e047eba25c43</tstamps>
     </comp>
     <comp ref="C10">
       <value>22uF</value>
@@ -132,7 +132,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>18198551-f8b5-4fbc-9657-69360518dfda</tstamps>
+      <tstamps>3c5d9899-d1a3-479f-b855-08620fab2600</tstamps>
     </comp>
     <comp ref="C11">
       <value>22uF</value>
@@ -143,7 +143,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>68fd478b-9880-45f3-8a73-5e4e9d6acca9</tstamps>
+      <tstamps>eab12608-28c9-4913-9660-a40fcd93625e</tstamps>
     </comp>
     <comp ref="C12">
       <value>22uF</value>
@@ -154,7 +154,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cb28163b-3463-4cb4-9d5a-63be24857ea4</tstamps>
+      <tstamps>e639454d-12d0-445d-a589-dc320f8ead75</tstamps>
     </comp>
     <comp ref="C13">
       <value>22uF</value>
@@ -165,7 +165,7 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>009f5013-3ab7-4f6c-bc7c-8354cece1efa</tstamps>
+      <tstamps>5df518c3-ac30-4da4-9cea-50b063ce5e96</tstamps>
     </comp>
     <comp ref="C14">
       <value>22uF</value>
@@ -176,7 +176,18 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>86781fc6-8565-4569-b941-2b19707055d6</tstamps>
+      <tstamps>84955061-ffca-4e3c-be88-2bcd61f223da</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b9a6cb5-9d99-43cb-8497-63d9877bf701</tstamps>
     </comp>
     <comp ref="D1">
       <value>LED</value>
@@ -190,7 +201,7 @@
       <tstamps>98db3a42-44dc-4b5a-addc-1787bf2cf81d</tstamps>
     </comp>
     <comp ref="IC1">
-      <value>BQ25606RGER</value>
+      <value>BQ25606</value>
       <footprint>BQ25606RGER:QFN50P400X400X100-25N-D</footprint>
       <datasheet>http://www.ti.com/lit/gpn/bq25606</datasheet>
       <fields>
@@ -213,7 +224,7 @@
       <tstamps>a065c2c9-4314-47a9-a9a5-7b5f80e6bf1a</tstamps>
     </comp>
     <comp ref="IC2">
-      <value>MAX16054AZT+T</value>
+      <value>MAX16054</value>
       <footprint>MAX16054AZT+T:SOT95P275X110-6N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00087822.pdf</datasheet>
       <fields>
@@ -235,52 +246,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b13ca009-c3c3-43b6-b47c-0f9d52fd8378</tstamps>
     </comp>
-    <comp ref="IC3">
-      <value>TPS61023DRLT</value>
-      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
-      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</datasheet>
-      <fields>
-        <field name="Height">0.6</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
-        <field name="Mouser Part Number">595-TPS61023DRLT</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
-      </fields>
-      <libsource lib="TPS61023DRLT" part="TPS61023DRLT" description="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
-      <property name="Height" value="0.6"/>
-      <property name="Mouser Part Number" value="595-TPS61023DRLT"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D"/>
-      <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TPS61023DRLT"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
-      <property name="ki_description" value="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7e5d3233-1c56-4ef1-9327-28f7a4e071cd</tstamps>
-    </comp>
-    <comp ref="IC4">
-      <value>TPS564255DRLR</value>
-      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
-      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</datasheet>
-      <fields>
-        <field name="Height">0.6</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
-        <field name="Mouser Part Number">595-TPS61023DRLT</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
-      </fields>
-      <libsource lib="TPS564255DRLR" part="TPS564255DRLR" description="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
-      <property name="Height" value="0.6"/>
-      <property name="Mouser Part Number" value="595-TPS61023DRLT"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D"/>
-      <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TPS61023DRLT"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
-      <property name="ki_description" value="Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>98ce33b5-43b9-4699-bd4e-18873e3a3ec9</tstamps>
-    </comp>
     <comp ref="L1">
       <value>1uH</value>
       <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
@@ -301,7 +266,7 @@
       <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>92f7360a-c9ff-4de3-ae82-875e1e779aa7</tstamps>
+      <tstamps>7c67ac2c-ef2e-4af5-a693-c9e20b52d2e2</tstamps>
     </comp>
     <comp ref="L3">
       <value>1uH</value>
@@ -312,7 +277,7 @@
       <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c68eedfc-41b9-436c-9470-0ce6d4b5b00f</tstamps>
+      <tstamps>c24798d9-67ce-42b5-8b41-d527b5ffe4a4</tstamps>
     </comp>
     <comp ref="Q1">
       <value>AONR21117</value>
@@ -322,6 +287,26 @@
       <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2d69ffdd-4e20-45be-b39c-540021694f4c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AONR21117</value>
+      <footprint>TRANS_AONR21321:TRANS_AONR21321</footprint>
+      <libsource lib="AONR21117" part="AONR21117" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>534fca1e-3069-4f3d-bd56-6ece030dd6cb</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SI1317DL</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>559615df-fcb6-49e0-bf54-caeb4e8f2d48</tstamps>
     </comp>
     <comp ref="R1">
       <value>150</value>
@@ -390,7 +375,7 @@
       <tstamps>549a2a5e-6df2-414a-8724-05b55e79f1f3</tstamps>
     </comp>
     <comp ref="R7">
-      <value>750k</value>
+      <value>909k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -398,7 +383,7 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>19f48bef-f0a4-461f-ae53-a20b7a8d2d4d</tstamps>
+      <tstamps>4d17c7d4-c137-45ba-8e35-d91a48ccf718</tstamps>
     </comp>
     <comp ref="R8">
       <value>100k</value>
@@ -409,10 +394,10 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a6831d7b-af00-4cbf-acfc-f68403a0ee3c</tstamps>
+      <tstamps>f72dc8c1-8166-4d24-917c-b56906245637</tstamps>
     </comp>
     <comp ref="R9">
-      <value>487k</value>
+      <value>604k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -420,7 +405,7 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4def0a6b-2e0f-43b6-852f-531f8222357a</tstamps>
+      <tstamps>7a4876cd-c2c1-4423-be64-af0a1892df34</tstamps>
     </comp>
     <comp ref="R10">
       <value>100k</value>
@@ -431,7 +416,29 @@
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>80e05685-6ed1-4a62-a066-1c7136cfea82</tstamps>
+      <tstamps>cb3b98e4-4a8c-49ec-ad19-00ae573660a0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d8bc99d-8f99-4b15-8c77-71a54826436e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81ae87f0-5b22-491d-b139-af27673caf64</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_SPST</value>
@@ -467,7 +474,7 @@
       <tstamps>a078fb5f-e36a-4c04-a378-7e719ca51671</tstamps>
     </comp>
     <comp ref="TP3">
-      <value>BAT</value>
+      <value>B+</value>
       <footprint>solderpads:hipower_2.5x1.5mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
@@ -475,7 +482,18 @@
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>644bde84-5684-47d6-b70c-24ed49104ac8</tstamps>
+      <tstamps>b1ef6510-db69-4265-8787-bc9bf636ff95</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1de31553-7d25-48b3-871d-396835eda6bf</tstamps>
     </comp>
     <comp ref="TP5">
       <value>+5V</value>
@@ -489,7 +507,7 @@
       <tstamps>32a57e86-acb2-431d-9450-ce80a007731a</tstamps>
     </comp>
     <comp ref="TP6">
-      <value>+3V5</value>
+      <value>+5V</value>
       <footprint>solderpads:hipower_2.5x1.5mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
@@ -497,7 +515,7 @@
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bfea8e7d-624c-46af-8f28-ca0ea6c7ac71</tstamps>
+      <tstamps>ab900c4c-840f-424f-9b54-724e93f72cee</tstamps>
     </comp>
     <comp ref="TP7">
       <value>GND</value>
@@ -508,18 +526,76 @@
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4c4da69d-effa-4cdf-bfb8-a196675dffc0</tstamps>
+      <tstamps>438e57f1-d06a-4bed-a1b0-e429a6f35cce</tstamps>
     </comp>
     <comp ref="TP8">
-      <value>GND</value>
-      <footprint>solderpads:hipower_2.5x1.5mm</footprint>
+      <value>RST</value>
+      <footprint>solderpads:lopower_1.25mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8f14f25b-2692-4dd9-8384-92368f29963c</tstamps>
+      <tstamps>59595af7-1071-43f6-89d3-035d306dd03b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS631000</value>
+      <footprint>Package_TO_SOT_SMD:SOT-583-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</datasheet>
+      <fields>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+      </fields>
+      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS631000DRLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13799210-9f40-42f4-b3f8-f7d7f517697f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS631000</value>
+      <footprint>Package_TO_SOT_SMD:SOT-583-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</datasheet>
+      <fields>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+      </fields>
+      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS631000DRLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cf46f47-25c7-4925-aded-38b279f89787</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP120-315I</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</datasheet>
+      <libsource lib="Power_Supervisor" part="MCP120-xxxxTT" description="Microcontroller supervisory circuit, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="psxpress-pms.kicad_sch"/>
+      <property name="ki_description" value="Microcontroller supervisory circuit, SOT-23"/>
+      <property name="ki_keywords" value="supervisory circuit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a43a64b9-bdd4-4e02-b1f1-a67d51b87c8e</tstamps>
     </comp>
   </components>
   <libparts>
@@ -653,6 +729,20 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R_Small">
       <description>Resistor, small symbol</description>
       <docs>~</docs>
@@ -692,6 +782,24 @@
         <pin num="6" name="VCC" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Power_Supervisor" part="MCP120-xxxxTT">
+      <description>Microcontroller supervisory circuit, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP120-xxxxTT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="open_collector"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Switch" part="SW_SPST">
       <description>Single Pole Single Throw (SPST) switch</description>
       <docs>~</docs>
@@ -705,50 +813,29 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="TPS564255DRLR" part="TPS564255DRLR">
-      <description>Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125</description>
-      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</docs>
+    <libpart lib="TPS631000DRLR" part="TPS631000DRLR">
+      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
       <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">TPS564255DRLR</field>
-        <field name="Footprint">SOTFL50P160X60-6N</field>
-        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</field>
+        <field name="Reference">U</field>
+        <field name="Value">TPS631000DRLR</field>
+        <field name="Footprint">SOTFL50P160X60-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
         <field name="Height">0.6</field>
-        <field name="Mouser Part Number">595-TPS61023DRLT</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
       </fields>
       <pins>
-        <pin num="1" name="FB" type="passive"/>
-        <pin num="2" name="EN" type="passive"/>
-        <pin num="3" name="VIN" type="passive"/>
-        <pin num="4" name="GND" type="passive"/>
-        <pin num="5" name="SW" type="passive"/>
-        <pin num="6" name="PG" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="TPS61023DRLT" part="TPS61023DRLT">
-      <description>Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125</description>
-      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</docs>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">TPS61023DRLT</field>
-        <field name="Footprint">SOTFL50P160X60-6N</field>
-        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61023</field>
-        <field name="Height">0.6</field>
-        <field name="Mouser Part Number">595-TPS61023DRLT</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLT?qs=BJlw7L4Cy78Zr3IJIU3gNw%3D%3D</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS61023DRLT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="FB" type="passive"/>
-        <pin num="2" name="EN" type="passive"/>
-        <pin num="3" name="VIN" type="passive"/>
-        <pin num="4" name="GND" type="passive"/>
-        <pin num="5" name="SW" type="passive"/>
-        <pin num="6" name="VOUT" type="passive"/>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="LX2" type="passive"/>
+        <pin num="3" name="LX1" type="passive"/>
+        <pin num="4" name="VIN" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="MODE" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="FB" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -768,38 +855,51 @@
     <library logical="MAX16054AZT+T">
       <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/MAX16054AZT+T.kicad_sym</uri>
     </library>
+    <library logical="Power_Supervisor">
+      <uri>/usr/share/kicad/symbols//Power_Supervisor.kicad_sym</uri>
+    </library>
     <library logical="Switch">
       <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
     </library>
-    <library logical="TPS564255DRLR">
-      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/TPS564255DRLR.kicad_sym</uri>
-    </library>
-    <library logical="TPS61023DRLT">
-      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/TPS61023DRLT.kicad_sym</uri>
+    <library logical="TPS631000DRLR">
+      <uri>/home/y2k/Documents/psxpress/CAD/PCB/psxpress-pms/lib/TPS631000DRLR.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.5V">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="IC3" pin="6" pinfunction="VOUT" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="passive"/>
     </net>
-    <net code="3" name="GND">
+    <net code="3" name="BAT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="BAT" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="BAT" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -814,29 +914,25 @@
       <node ref="IC1" pin="9" pinfunction="~{CE}" pintype="passive"/>
       <node ref="IC2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="IC2" pin="3" pinfunction="CLEAR" pintype="passive"/>
-      <node ref="IC3" pin="4" pinfunction="GND" pintype="passive"/>
-      <node ref="IC4" pin="4" pinfunction="GND" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="4" name="Net-(C2-Pad1)">
+    <net code="5" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="IC1" pin="19" pinfunction="SW" pintype="passive"/>
       <node ref="IC1" pin="20" pinfunction="SW" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="IC1" pin="13" pinfunction="BAT" pintype="passive"/>
-      <node ref="IC1" pin="14" pinfunction="BAT" pintype="passive"/>
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="6" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
@@ -883,29 +979,58 @@
       <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(IC3-FB)">
-      <node ref="IC3" pin="1" pinfunction="FB" pintype="passive"/>
+    <net code="16" name="Net-(Q2-G)">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q3-G)">
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="9" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="9_1" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="9_2" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-FB)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(IC3-SW)">
-      <node ref="IC3" pin="5" pinfunction="SW" pintype="passive"/>
+    <net code="19" name="Net-(U1-LX1)">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="LX1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U1-LX2)">
       <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="LX2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(IC4-FB)">
-      <node ref="IC4" pin="1" pinfunction="FB" pintype="passive"/>
+    <net code="21" name="Net-(U2-FB)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(IC4-SW)">
-      <node ref="IC4" pin="5" pinfunction="SW" pintype="passive"/>
+    <net code="22" name="Net-(U2-LX1)">
       <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="LX1" pintype="passive"/>
     </net>
-    <net code="20" name="STAT">
+    <net code="23" name="Net-(U2-LX2)">
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="LX2" pintype="passive"/>
+    </net>
+    <net code="24" name="RST">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="~{RST}" pintype="open_collector"/>
+    </net>
+    <net code="25" name="STAT">
       <node ref="IC1" pin="5" pinfunction="STAT" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="VOUT">
+    <net code="26" name="VOUT">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
@@ -919,14 +1044,9 @@
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="VSYS">
+    <net code="27" name="VSYS">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="IC3" pin="2" pinfunction="EN" pintype="passive"/>
-      <node ref="IC3" pin="3" pinfunction="VIN" pintype="passive"/>
-      <node ref="IC4" pin="2" pinfunction="EN" pintype="passive"/>
-      <node ref="IC4" pin="3" pinfunction="VIN" pintype="passive"/>
-      <node ref="L2" pin="1" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
       <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
       <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
@@ -934,27 +1054,30 @@
       <node ref="Q1" pin="9" pinfunction="D" pintype="passive"/>
       <node ref="Q1" pin="9_1" pinfunction="D" pintype="passive"/>
       <node ref="Q1" pin="9_2" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="MODE" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="EN" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="MODE" pintype="passive"/>
     </net>
-    <net code="23" name="unconnected-(IC1-D+-Pad3)">
+    <net code="28" name="unconnected-(IC1-D+-Pad3)">
       <node ref="IC1" pin="3" pinfunction="D+" pintype="passive+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(IC1-D--Pad4)">
+    <net code="29" name="unconnected-(IC1-D--Pad4)">
       <node ref="IC1" pin="4" pinfunction="D-" pintype="passive+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(IC1-NC-Pad2)">
+    <net code="30" name="unconnected-(IC1-NC-Pad2)">
       <node ref="IC1" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="26" name="unconnected-(IC1-VSET-Pad12)">
+    <net code="31" name="unconnected-(IC1-VSET-Pad12)">
       <node ref="IC1" pin="12" pinfunction="VSET" pintype="passive+no_connect"/>
     </net>
-    <net code="27" name="unconnected-(IC1-~{PG}-Pad7)">
+    <net code="32" name="unconnected-(IC1-~{PG}-Pad7)">
       <node ref="IC1" pin="7" pinfunction="~{PG}" pintype="passive+no_connect"/>
     </net>
-    <net code="28" name="unconnected-(IC2-OUT-Pad5)">
+    <net code="33" name="unconnected-(IC2-OUT-Pad5)">
       <node ref="IC2" pin="5" pinfunction="OUT" pintype="passive+no_connect"/>
-    </net>
-    <net code="29" name="unconnected-(IC4-PG-Pad6)">
-      <node ref="IC4" pin="6" pinfunction="PG" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
