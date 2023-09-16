@@ -1,4 +1,4 @@
-![PSXpress Logo](https://github.com/Y2K-x/psxpress/tree/main/Logos/psxpress_logo.png)
+![PSXpress Logo](https://github.com/Y2K-x/psxpress/tree/main/Logos/psxpress_logo_scaled.png)
 
 # PSXpress
 A compact handheld PlayStation console using original PS1 hardware.
