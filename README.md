@@ -80,7 +80,7 @@ This folder contains the logo design that I created for this project. I've inclu
 ## Special Thanks
 I'd like to give a special thanks to the following communities and persons for all their support with this project so far:
 
-- [BitBuilt]() & its [Discord server](https://discord.com/invite/6z8FSv8B)
+- [BitBuilt](https://bitbuilt.net/) & its [Discord server](https://discord.com/invite/6z8FSv8B)
 - [PSX.dev](https://discord.gg/QByKPpH)
 - [ReSwitched](https://discord.gg/ZdqEhed)
 - [YveltalGriffin](https://github.com/mackieks)
