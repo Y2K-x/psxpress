@@ -54,7 +54,7 @@ This board has been designed to be manufactured by DKRed. JLCPCB/PCBWay should a
 #### Video DAC Relocation (/CAD/PCB/pu-23\_VDAC\_reloc)
 *All files in this folder are licensed under the TAPR Open Hardware License. Please see /CAD/PCB/pu-23_VDAC_reloc/LICENSE.txt for more information.*
 
-This folder contains the design docs for the PSXpress Video DAX relocation board. It's functionality is as follows:
+This folder contains the design docs for the PSXpress Video DAC relocation board. It's functionality is as follows:
 - Accepts a PU-23 Video DAC IC
 - Takes in the PS1's 24bit digital video bus and outputs clean RGB with Composite Sync
 - Generates a composite sync signal from the PS1's Sync on Luma signal, since tapping into the standard CSync signal the PS1 generates messes up the VDAC output.
@@ -64,6 +64,15 @@ This folder contains the design docs for the PSXpress Video DAX relocation board
 Please note: the PCB itself does not have any silkscreen markings for the pinout of the solder pads on it's edge. Please see the kicad pcb file for that information. I will document this more properly later on, or I might try and figure out a way to include the pinout markings on the PCB itself in the future.
 
 This board has been designed to be manufactured by JLCPCB. PCBWay should also be able to fabricate this. DKRed cannot by default since this board is 0.8mm thick, but honestly there is no reason why this needs to be 0.8mm, I was just trying to keep the relocation stack-up as thin as possible. 1.6mm should be fine if you want to have DKRed fabricate this, assuming it's within their size tollerances. OSH Park may also be able to fabricate this using their 0.8mm 2oz service, but I cannot make any guarantees here.
+
+#### All-in-One Relocation Flex PCB (/CAD/PCB/relocation-flex)
+*All files in this folder are licensed under the TAPR Open hardware License. Please see /CAD/PCB/relocation-flex/LICENSE.txt for more information.*
+
+This folder contains the design docs for the PSXpress All-in-One relocation flex PCB. It is currently a WIP.
+
+This design will combine all the hand wired relocations into one easy to install flex board. The first iteration will handle the BIOS, PU-18 SPU, and VDAC relocations and eliminate the need for handmade fly-wire relocations, significantly lowering the skill ceiling required to build a PU-23 based PS1 portable. Future iterations may eliminate the PU-18 SPU entirely for an accurately emulated replacement solution. I may also look into utilizing a flash chip to contain the BIOS ROM, which will allow you to use an alternative ROM of your choosing, or possibily include multiple banks of ROMs that you can swap between. A flash based solution would also allow for the use of a smaller footprint chip, making the flex PCB smaller in size. Another option down the road could be to use a MCU like the RP2040 or FPGA/CPLD as a "ROMulator" of sorts.
+
+The development of the AIO Relocation Flex will remain on its own separate branch until it's in a completed state, which it will then be upstreamed into the main branch. Please note that the design in this branch will likely not be fully functional for quite a while, and is only updated regularly to document the design process.
 
 ### Research Documentation (/Documentation)
 *All files in this folder are licensed under the public domain (Creative Commons CC0 in technicality). Please see /Documentation/LICENSE.txt for more information.*
