@@ -391,7 +391,10 @@
     "pinned_footprint_libs": [
       "62684-402100ALF"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SST39VF040-70-4C-WHE",
+      "psx-spu"
+    ]
   },
   "meta": {
     "filename": "relocation-flex.kicad_pro",

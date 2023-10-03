@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "62684-402100ALF")(type "KiCad")(uri "${KIPRJMOD}/lib/62684-402100ALF.kicad_sym")(options "")(descr ""))
   (lib (name "BH7240AKV-E2")(type "KiCad")(uri "${KIPRJMOD}/lib/BH7240AKV-E2.kicad_sym")(options "")(descr ""))
+  (lib (name "SST39VF040-70-4C-WHE")(type "KiCad")(uri "${KIPRJMOD}/lib/SST39VF040-70-4C-WHE.kicad_sym")(options "")(descr ""))
+  (lib (name "power_custom")(type "KiCad")(uri "${KIPRJMOD}/lib/power_custom.kicad_sym")(options "")(descr ""))
+  (lib (name "psx-spu")(type "KiCad")(uri "${KIPRJMOD}/lib/psx-spu.kicad_sym")(options "")(descr ""))
 )
