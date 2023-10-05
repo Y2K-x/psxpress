@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Conn_04x17_PSX_PIO")(type "KiCad")(uri "${KIPRJMOD}/lib/Conn_04x17_PSX_PIO.kicad_sym")(options "")(descr ""))
+  (lib (name "power_custom")(type "KiCad")(uri "${KIPRJMOD}/lib/power_custom.kicad_sym")(options "")(descr ""))
+  (lib (name "62684-402100ALF")(type "KiCad")(uri "${KIPRJMOD}/lib/62684-402100ALF.kicad_sym")(options "")(descr ""))
+)
