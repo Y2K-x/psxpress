@@ -66,13 +66,22 @@ Please note: the PCB itself does not have any silkscreen markings for the pinout
 This board has been designed to be manufactured by JLCPCB. PCBWay should also be able to fabricate this. DKRed cannot by default since this board is 0.8mm thick, but honestly there is no reason why this needs to be 0.8mm, I was just trying to keep the relocation stack-up as thin as possible. 1.6mm should be fine if you want to have DKRed fabricate this, assuming it's within their size tollerances. OSH Park may also be able to fabricate this using their 0.8mm 2oz service, but I cannot make any guarantees here.
 
 #### All-in-One Relocation Flex PCB (/CAD/PCB/relocation-flex)
-*All files in this folder are licensed under the TAPR Open hardware License. Please see /CAD/PCB/relocation-flex/LICENSE.txt for more information.*
+*All files in this folder are licensed under the TAPR Open Hardware License. Please see /CAD/PCB/relocation-flex/LICENSE.txt for more information.*
 
 This folder contains the design docs for the PSXpress All-in-One relocation flex PCB. It is currently a WIP.
 
 This design will combine all the hand wired relocations into one easy to install flex board. The first iteration will handle the BIOS, PU-18 SPU, and VDAC relocations and eliminate the need for handmade fly-wire relocations, significantly lowering the skill ceiling required to build a PU-23 based PS1 portable. Future iterations may eliminate the PU-18 SPU entirely for an accurately emulated replacement solution. I may also look into utilizing a flash chip to contain the BIOS ROM, which will allow you to use an alternative ROM of your choosing, or possibily include multiple banks of ROMs that you can swap between. A flash based solution would also allow for the use of a smaller footprint chip, making the flex PCB smaller in size. Another option down the road could be to use a MCU like the RP2040 or FPGA/CPLD as a "ROMulator" of sorts.
 
 The development of the AIO Relocation Flex will remain on its own separate branch until it's in a completed state, which it will then be upstreamed into the main branch. Please note that the design in this branch will likely not be fully functional for quite a while, and is only updated regularly to document the design process.
+
+#### PSIO to FFC Adapter QSB (/CAD/PCB/psio-qsb)
+*All files in this folder are licensed under the TAPR Open Hardware License. Please see /CAD/PCB/psio-qsb/LICENSE.txt for more information.*
+
+This folder contains the design docs for the PSIO to flat-flex cable (FFC) quick solder board (QSB). It is currently a WIP.
+
+This design will assist in interfacing a PSIO to the All-in-One Relocation Flex PCB without having to run a bunch of wires between the two. Simply solder the QSB to the PSIO and connect the two with a standard 40pin 0.5mm pitch FFC, preferably one that is as short as possible to not have to worry about the excess cable length. This cable will also run power from the PS1 to the PSIO, so you do not have to worry about wiring power separately. You will have to modify the PSIO to accept 3v5 power instead of 7v5. I will create a diagram that shows exactly what needs to be done at some point.
+
+The development of the PSIO QSB will remain on the relocation-flex branch until both it and the AIO Relocation Flex are in a completed state, which it will then be upstreamed into the main branch. Please note that the design in this branch will likely not be fully functional for quite a while, and is only updated regularly to document the design process.
 
 ### Research Documentation (/Documentation)
 *All files in this folder are licensed under the public domain (Creative Commons CC0 in technicality). Please see /Documentation/LICENSE.txt for more information.*
