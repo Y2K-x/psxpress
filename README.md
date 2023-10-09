@@ -77,11 +77,11 @@ The development of the AIO Relocation Flex will remain on its own separate branc
 #### PSIO to FFC Adapter QSB (/CAD/PCB/psio-qsb)
 *All files in this folder are licensed under the TAPR Open Hardware License. Please see /CAD/PCB/psio-qsb/LICENSE.txt for more information.*
 
-This folder contains the design docs for the PSIO to flat-flex cable (FFC) quick solder board (QSB). It is currently a WIP.
+This folder contains the design docs for the PSIO to flat-flex cable (FFC) quick solder board (QSB).
 
-This design will assist in interfacing a PSIO to the All-in-One Relocation Flex PCB without having to run a bunch of wires between the two. Simply solder the QSB to the PSIO and connect the two with a standard 40pin 0.5mm pitch FFC, preferably one that is as short as possible to not have to worry about the excess cable length. This cable will also run power from the PS1 to the PSIO, so you do not have to worry about wiring power separately. You will have to modify the PSIO to accept 3v5 power instead of 7v5. I will create a diagram that shows exactly what needs to be done at some point.
+This design assists in interfacing a PSIO to the All-in-One Relocation Flex PCB without having to run a bunch of wires between the two. Simply solder the QSB to the PSIO and connect the two with a standard 40pin 0.5mm pitch FFC, preferably one that is as short as possible to not have to worry about the excess cable length. This cable will also run power from the PS1 to the PSIO, so you do not have to worry about wiring power separately. You will have to modify the PSIO to accept 3v5 power instead of 7v5. I will create a diagram that shows exactly what needs to be done at some point.
 
-The development of the PSIO QSB will remain on the relocation-flex branch until both it and the AIO Relocation Flex are in a completed state, which it will then be upstreamed into the main branch. Please note that the design in this branch will likely not be fully functional for quite a while, and is only updated regularly to document the design process.
+The PSIO QSB will remain on the relocation-flex branch until the AIO Relocation Flex is in a completed state, which it will then be upstreamed into the main branch.
 
 ### Research Documentation (/Documentation)
 *All files in this folder are licensed under the public domain (Creative Commons CC0 in technicality). Please see /Documentation/LICENSE.txt for more information.*
