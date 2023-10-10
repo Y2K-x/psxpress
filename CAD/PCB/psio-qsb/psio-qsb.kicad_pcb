@@ -1279,6 +1279,9 @@
       QmCC
     )
   )
+  (gr_text "The PSXpress project and it's contributors are not affiliated, \nassociated, authorized, endorsed by, or in any way officially \nconnected with Cybdyn Systems and/or it's proprietors. All product \nand company names are trademarks or registered trademarks of \ntheir respective holders. Use of them does not imply any \naffiliation with or endorsement by them." (at 172.675 132.1) (layer "B.SilkS") (tstamp 0bbc045e-f05e-48ad-b0bd-cbbe42d71f4f)
+    (effects (font (size 0.5 0.5) (thickness 0.125) bold) (justify left bottom mirror))
+  )
   (gr_text "PSXpress PSIO QSB" (at 122.45 116.35) (layer "F.Mask") (tstamp ad8866a5-c883-4374-9614-67ce1568aebd)
     (effects (font (face "Zrnic Rg") (size 1 1) (thickness 0.15)) (justify left bottom))
     (render_cache "PSXpress PSIO QSB" 0
